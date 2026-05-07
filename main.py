@@ -54,8 +54,8 @@ def parse_args():
 
     parser.add_argument("--cl_weight", type=float, default=0.1)
     parser.add_argument("--rec_weight", type=float, default=1.0)
-    parser.add_argument("--diff_weight", type=float, default=1e-2)
-    parser.add_argument("--var_weight", type=float, default=1.0)
+    parser.add_argument("--diff_weight", type=float, default=0.1)
+    parser.add_argument("--var_weight", type=float, default=1e-2)
     return parser.parse_args()
 
 
